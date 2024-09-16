@@ -7,13 +7,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 Add below details in the .env file.
-
+```
 MONGODB_URI="..."
 RESEND_API_KEY="..."
 NEXTAUTH_SECRET=...
 NEXTAUTH_URL="http://localhost:3000/"
 OPENAI_API_KEY="..."
-
+```
 ```bash
 npm run dev
 # or
