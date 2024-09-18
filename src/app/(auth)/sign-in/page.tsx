@@ -39,7 +39,7 @@ const page = () => {
         const result = await signIn("credentials", {
             redirect: false,
             identifier: data.identifier,
-            passoword: data.password,
+            password: data.password,
         });
 
         if (result?.error) {
